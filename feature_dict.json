@@ -44,22 +44,22 @@
     "Street": {
         "desc": "Type of road access to property",
         "values": {
-            "Grvl": "Gravel\t",
-            "Pave": "Paved"
+            "Pave": "Paved",
+            "Grvl": "Gravel"
         }
     },
     "Alley": {
         "desc": "Type of alley access to property",
         "values": {
-            "Grvl": "Gravel",
             "Pave": "Paved",
+            "Grvl": "Gravel",
             "NA": "No alley access"
         }
     },
     "LotShape": {
         "desc": "General shape of property",
         "values": {
-            "Reg": "Regular\t",
+            "Reg": "Regular",
             "IR1": "Slightly irregular",
             "IR2": "Moderately Irregular",
             "IR3": "Irregular"
@@ -68,7 +68,7 @@
     "LandContour": {
         "desc": "Flatness of the property",
         "values": {
-            "Lvl": "Near Flat/Level\t",
+            "Lvl": "Near Flat/Level",
             "Bnk": "Banked - Quick and significant rise from street grade to building",
             "HLS": "Hillside - Significant slope from side to side",
             "Low": "Depression"
@@ -77,10 +77,10 @@
     "Utilities": {
         "desc": "Type of utilities available",
         "values": {
-            "AllPub": "All public Utilities (E,G,W,& S)\t",
+            "AllPub": "All public Utilities (E,G,W,& S)",
             "NoSewr": "Electricity, Gas, and Water (Septic Tank)",
             "NoSeWa": "Electricity and Gas Only",
-            "ELO": "Electricity only\t"
+            "ELO": "Electricity only"
         }
     },
     "LotConfig": {
@@ -97,7 +97,7 @@
         "desc": "Slope of property",
         "values": {
             "Gtl": "Gentle slope",
-            "Mod": "Moderate Slope\t",
+            "Mod": "Moderate Slope",
             "Sev": "Severe Slope"
         }
     },
@@ -135,8 +135,8 @@
         "desc": "Proximity to various conditions",
         "values": {
             "Artery": "Adjacent to arterial street",
-            "Feedr": "Adjacent to feeder street\t",
-            "Norm": "Normal\t",
+            "Feedr": "Adjacent to feeder street",
+            "Norm": "Normal",
             "RRNn": "Within 200' of North-South Railroad",
             "RRAn": "Adjacent to North-South Railroad",
             "PosN": "Near positive off-site feature--park, greenbelt, etc.",
@@ -149,8 +149,8 @@
         "desc": "Proximity to various conditions (if more than one is present)",
         "values": {
             "Artery": "Adjacent to arterial street",
-            "Feedr": "Adjacent to feeder street\t",
-            "Norm": "Normal\t",
+            "Feedr": "Adjacent to feeder street",
+            "Norm": "Normal",
             "RRNn": "Within 200' of North-South Railroad",
             "RRAn": "Adjacent to North-South Railroad",
             "PosN": "Near positive off-site feature--park, greenbelt, etc.",
@@ -162,7 +162,7 @@
     "BldgType": {
         "desc": "Type of dwelling",
         "values": {
-            "1Fam": "Single-family Detached\t",
+            "1Fam": "Single-family Detached",
             "2FmCon": "Two-family Conversion; originally built as one-family dwelling",
             "Duplx": "Duplex",
             "TwnhsE": "Townhouse End Unit",
@@ -204,9 +204,9 @@
             "9": "Excellent",
             "8": "Very Good",
             "7": "Good",
-            "6": "Above Average\t",
+            "6": "Above Average",
             "5": "Average",
-            "4": "Below Average\t",
+            "4": "Below Average",
             "3": "Fair",
             "2": "Poor",
             "1": "Very Poor"
@@ -258,11 +258,11 @@
             "MetalSd": "Metal Siding",
             "Other": "Other",
             "Plywood": "Plywood",
-            "PreCast": "PreCast\t",
+            "PreCast": "PreCast",
             "Stone": "Stone",
             "Stucco": "Stucco",
             "VinylSd": "Vinyl Siding",
-            "Wd": "Sdng\tWood Siding",
+            "Wd": "SdngWood Siding",
             "WdShing": "Wood Shingles"
         }
     },
@@ -284,7 +284,7 @@
             "Stone": "Stone",
             "Stucco": "Stucco",
             "VinylSd": "Vinyl Siding",
-            "Wd": "Sdng\tWood Siding",
+            "Wd": "SdngWood Siding",
             "WdShing": "Wood Shingles"
         }
     },
@@ -294,7 +294,7 @@
             "BrkCmn": "Brick Common",
             "BrkFace": "Brick Face",
             "CBlock": "Cinder Block",
-            "None": "None",
+            "df['GarageYrBlt'].fillna(-1)": "None",
             "Stone": "Stone"
         }
     },
@@ -327,7 +327,7 @@
         "values": {
             "BrkTil": "Brick & Tile",
             "CBlock": "Cinder Block",
-            "PConc": "Poured Contrete\t",
+            "PConc": "Poured Contrete",
             "Slab": "Slab",
             "Stone": "Stone",
             "Wood": "Wood"
@@ -336,7 +336,7 @@
     "BsmtQual": {
         "desc": "Evaluates the height of the basement",
         "values": {
-            "Ex": "Excellent (100+ inches)\t",
+            "Ex": "Excellent (100+ inches)",
             "Gd": "Good (90-99 inches)",
             "TA": "Typical (80-89 inches)",
             "Fa": "Fair (70-79 inches)",
@@ -359,7 +359,7 @@
         "desc": "Refers to walkout or garden level walls",
         "values": {
             "Gd": "Good Exposure",
-            "Av": "Average Exposure (split levels or foyers typically score average or above)\t",
+            "Av": "Average Exposure (split levels or foyers typically score average or above)",
             "Mn": "Mimimum Exposure",
             "No": "No Exposure",
             "NA": "No Basement"
@@ -370,7 +370,7 @@
         "values": {
             "GLQ": "Good Living Quarters",
             "ALQ": "Average Living Quarters",
-            "BLQ": "Below Average Living Quarters\t",
+            "BLQ": "Below Average Living Quarters",
             "Rec": "Average Rec Room",
             "LwQ": "Low Quality",
             "Unf": "Unfinshed",
@@ -386,7 +386,7 @@
         "values": {
             "GLQ": "Good Living Quarters",
             "ALQ": "Average Living Quarters",
-            "BLQ": "Below Average Living Quarters\t",
+            "BLQ": "Below Average Living Quarters",
             "Rec": "Average Rec Room",
             "LwQ": "Low Quality",
             "Unf": "Unfinshed",
@@ -411,7 +411,7 @@
             "Floor": "Floor Furnace",
             "GasA": "Gas forced warm air furnace",
             "GasW": "Gas hot water or steam heat",
-            "Grav": "Gravity furnace\t",
+            "Grav": "Gravity furnace",
             "OthW": "Hot water or steam heat other than gas",
             "Wall": "Wall furnace"
         }
@@ -437,7 +437,7 @@
         "desc": "Electrical system",
         "values": {
             "SBrkr": "Standard Circuit Breakers & Romex",
-            "FuseA": "Fuse Box over 60 AMP and all Romex wiring (Average)\t",
+            "FuseA": "Fuse Box over 60 AMP and all Romex wiring (Average)",
             "FuseF": "60 AMP Fuse Box and mostly Romex wiring (Fair)",
             "FuseP": "60 AMP Fuse Box and mostly knob & tube wiring (poor)",
             "Mix": "Mixed"
@@ -545,7 +545,7 @@
         "desc": "Interior finish of the garage",
         "values": {
             "Fin": "Finished",
-            "RFn": "Rough Finished\t",
+            "RFn": "Rough Finished",
             "Unf": "Unfinished",
             "NA": "No Garage"
         }
@@ -676,7 +676,7 @@
             "Normal": "Normal Sale",
             "Abnorml": "Abnormal Sale -  trade, foreclosure, short sale",
             "AdjLand": "Adjoining Land Purchase",
-            "Alloca": "Allocation - two linked properties with separate deeds, typically condo with a garage unit\t",
+            "Alloca": "Allocation - two linked properties with separate deeds, typically condo with a garage unit",
             "Family": "Sale between family members",
             "Partial": "Home was not completed when last assessed (associated with New Homes)"
         }
