@@ -429,8 +429,8 @@
     "CentralAir": {
         "desc": "Central air conditioning",
         "values": {
-            "N": "No",
-            "Y": "Yes"
+            "Y": "Yes",
+            "N": "No"
         }
     },
     "Electrical": {
