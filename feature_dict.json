@@ -294,7 +294,7 @@
             "BrkCmn": "Brick Common",
             "BrkFace": "Brick Face",
             "CBlock": "Cinder Block",
-            "df['GarageYrBlt'].fillna(-1)": "None",
+            "None": "None",
             "Stone": "Stone"
         }
     },
