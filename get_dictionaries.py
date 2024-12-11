@@ -1,5 +1,6 @@
 import json
 import re
+from collections import defaultdict
 
 if __name__ == '__main__':
     # columns_dict, dict with dict with features and descriptions
@@ -15,7 +16,6 @@ if __name__ == '__main__':
     with open("columns_dict.json", "w") as json_file:
         json.dump(columns_dict, json_file, indent=4)
 
-    # feature_dict, dict with features, descriptions, values
     structured_data = defaultdict(lambda: {"desc": "", "values": {}})
 
     with open("data_description.txt", "r") as file:
@@ -24,13 +24,11 @@ if __name__ == '__main__':
     current_feature = None
 
     for line in lines:
-        # Match feature description
         feature_match = re.match(r"(\w+):\s+(.+)", line)
         if feature_match:
             current_feature = feature_match.group(1)
             structured_data[current_feature]["desc"] = feature_match.group(2)
         elif current_feature:
-            # Match key-value pairs (e.g., "20 1-STORY 1946 & NEWER ALL STYLES")
             value_match = re.match(r"^\s*(\S+)\s+(.+)", line)
             if value_match:
                 key = value_match.group(1)
