@@ -24,7 +24,7 @@
         "desc": "Identifies the general zoning classification of the sale.",
         "values": {
             "A": "Agriculture",
-            "C": "Commercial",
+            "C (all)": "Commercial",
             "FV": "Floating Village Residential",
             "I": "Industrial",
             "RH": "Residential High Density",
@@ -116,7 +116,7 @@
             "IDOTRR": "Iowa DOT and Rail Road",
             "MeadowV": "Meadow Village",
             "Mitchel": "Mitchell",
-            "Names": "North Ames",
+            "NAmes": "North Ames",
             "NoRidge": "Northridge",
             "NPkVill": "Northpark Villa",
             "NridgHt": "Northridge Heights",
@@ -163,8 +163,9 @@
         "desc": "Type of dwelling",
         "values": {
             "1Fam": "Single-family Detached",
-            "2FmCon": "Two-family Conversion; originally built as one-family dwelling",
-            "Duplx": "Duplex",
+            "2fmCon": "Two-family Conversion; originally built as one-family dwelling",
+            "Duplex": "Duplex",
+            "Twnhs": "Townhouse",
             "TwnhsE": "Townhouse End Unit",
             "TwnhsI": "Townhouse Inside Unit"
         }
@@ -262,7 +263,7 @@
             "Stone": "Stone",
             "Stucco": "Stucco",
             "VinylSd": "Vinyl Siding",
-            "Wd": "SdngWood Siding",
+            "Wd Sdng": "Wood Siding",
             "WdShing": "Wood Shingles"
         }
     },
@@ -271,10 +272,10 @@
         "values": {
             "AsbShng": "Asbestos Shingles",
             "AsphShn": "Asphalt Shingles",
-            "BrkComm": "Brick Common",
+            "Brk Cmn": "Brick Common",
             "BrkFace": "Brick Face",
             "CBlock": "Cinder Block",
-            "CemntBd": "Cement Board",
+            "CmentBd": "Cement Board",
             "HdBoard": "Hard Board",
             "ImStucc": "Imitation Stucco",
             "MetalSd": "Metal Siding",
@@ -284,8 +285,8 @@
             "Stone": "Stone",
             "Stucco": "Stucco",
             "VinylSd": "Vinyl Siding",
-            "Wd": "SdngWood Siding",
-            "WdShing": "Wood Shingles"
+            "Wd Sdng": "Wood Siding",
+            "Wd Shng": "Wood Shingles"
         }
     },
     "MasVnrType": {
