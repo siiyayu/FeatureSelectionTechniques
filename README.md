@@ -1,8 +1,9 @@
 # FeatureSelectionTechniques
 
-## Introduction
+The analysis is presented in **evaluating_models.ipynb** file.
 
-The analysis is presented in *evaluating_models.ipynb* file.
+
+## Introduction
 
 Variable selection is essential in modern data analysis and data science. Identifying influential and informative features not only simplifies models by reducing the number of variables but also provides valuable insights into the data. Techniques such as Principal Component Analysis are commonly used for dimensionality reduction, often eliminating variables during the preprocessing stage. Alternatively, incorporating the selection procedure directly into the model fitting process via regularization constraints can offer significant advantages.
 
