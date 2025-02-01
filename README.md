@@ -6,5 +6,5 @@ Variable selection is essential in modern data analysis and data science. Identi
 
 This project explores various variable selection methods; specifically, we focus on correlations, mutual information, SHAP (SHapley Additive exPlanations), Lasso, Elastic Net, and XGBoost to interpret and validate the importance of selected features. By applying these methods to a dataset of housing sale prices featuring 80 variables including 43 categorical features, we aim to discuss the underlying principles for these methods and their performance on the real-world data. The analysis provides insights into the advantages and limitations of each method in addressing different types of data and relationships, such as non-linearity, collinearity, and interactions.
 
-The analysis is presented in evaluating_models.ipynb file.
+The analysis is presented in *evaluating_models.ipynb* file.
 
